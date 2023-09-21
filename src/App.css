@@ -1,0 +1,73 @@
+.address{
+  text-align: center;
+  justify-content: center;
+  margin-left:450px;
+  margin-top:0px;
+  border: 1px solid grey;
+  padding: 50px;
+  background-color: brown;
+  color: white;
+}
+
+.dialog {
+  height : 100vh;
+  width : 100vw; 
+  opacity: 1;
+  background-color: lightgreen ;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: start;
+  line-height: 3rem;
+  z-index: 1;
+}
+
+.dialog-root{
+  border: none;
+  text-align: center;
+  margin-top: 250px;
+}
+
+body {
+  background-color: aqua;
+  background-image: url('./image/green_leaves_in_blur_green_background_hd_nature-1280x720.jpg');
+  background-size: 100rem; 
+  background-repeat:repeat; 
+}
+
+.font{
+  margin-top: -100px;
+  text-align: center;
+  margin-left: -10rem;
+}
+
+.buttons{
+  margin-left: 30rem;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,4fr);
+}
+
+.table{
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 50rem;
+  height: 100px;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+th{
+  color: rgb(34, 34, 36);
+  font-size: 20px;
+}
+
+td{
+  color: whitesmoke;
+  font-size: 16px;
+}
